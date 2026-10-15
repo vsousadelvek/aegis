@@ -1,5 +1,3 @@
-# Caption Instagram Reels
-
 AEGIS - Sistema de IA para vigilancia urbana que roda na sua GPU.
 
 Deteccao + rastreamento + analise comportamental em tempo real.
@@ -17,4 +15,4 @@ Do pixel ao alerta em < 200ms.
 
 Codigo aberto no meu GitHub (link na bio).
 
-#IA #ComputerVision #Python #YOLOv8 #DeepLearning #Vigilancia #Tech #Programacao #OpenCV #MachineLearning
+#IA #ComputerVision #Python #YOLOv8 #DeepLearning #Vigilancia #Tech #Programacao #OpenCV #MachineLearning #Docker #FastAPI #Seguranca #ProjetoReal

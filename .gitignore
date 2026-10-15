@@ -11,6 +11,8 @@ build/
 # videos de entrada e saida
 videos/
 demo_output*.mp4
+demo_final_*.mp4
+demo_centro_*.mp4
 
 # clips and data
 clips/*.mp4
