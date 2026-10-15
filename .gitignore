@@ -8,6 +8,10 @@ dist/
 build/
 .eggs/
 
+# videos de entrada e saida
+videos/
+demo_output*.mp4
+
 # clips and data
 clips/*.mp4
 clips/*.avi
