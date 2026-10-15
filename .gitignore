@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# clips and data
+clips/*.mp4
+clips/*.avi
+*.db
+*.sqlite
+
+# models downloaded at runtime
+*.pt
+*.onnx
+!aegis/detection/models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# env
+.env
+*.env.local
+
+# OS
+Thumbs.db
+.DS_Store

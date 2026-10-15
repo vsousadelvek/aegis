@@ -1,0 +1,21 @@
+services:
+  aegis:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - clips:/app/clips
+      - ./aegis.db:/app/aegis.db
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+
+volumes:
+  clips:
